@@ -229,13 +229,11 @@ class OnOffInstance(Instance):
 
 
 
-def create_ec2_connection():
+def create_ec2_connection(aws_access_key_id, aws_secret_access_key):
     '''
-    Creates a connection to Amazon EC2
+    Creates a connection to Amazon EC2 given the credentials
         :rtype: boto.ec2.EC2Connection
     '''
-    aws_access_key_id = 'xxxxxxxx'
-    aws_secret_access_key = 'yyyyyyyyy'
     conn = EC2Connection(aws_access_key_id, aws_secret_access_key)
     return conn
 
