@@ -2,7 +2,7 @@ require(tseries)
 require(forecast)
 
 
-data = read.table("~/devel/workspace/Ec2_Reserves/traces/trace_clarknet_complete.txt", comment.char="#")
+data = read.table("trace_clarknet_complete.txt", comment.char="#")
 complete = data$V1
 start = 243 # the first index in R is 1, not 0
 history = complete[1:start]
