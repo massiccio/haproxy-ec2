@@ -25,12 +25,20 @@ Numpy is used only by the zeros() function in the anor.anor module, which can be
 Code Description
 ----------------
 
-- main: script used to monitor HAProxy. It should be run on the host running HAProxy. This script is auto-configuring, meaning that it queries AWS go obtain the IP addresses of the Apache instances, and configures HAProxy accordingly. See the code for a complete description of the required parameters (cost, number of reserves, etc.).
+- main: script used to monitor HAProxy. It should be run on the host running HAProxy. This script is auto-configuring, meaning that it queries AWS go obtain the IP addresses of the Apache instances, and configures HAProxy accordingly. See the code for a complete description of the required parameters (cost, number of reserves, etc.). Example invocation:
+
+  ```bash
+  sudo python monitor.py -mu 10 -m 0 -D 0 -U 0 -c1 1.0 -c2 1.0
+  ```
 
 - init_ec2: script used to start and configure all the EC2 instances. Arguments:
   1. -n = number of Apache instances to launch (default = 1)
   2. -key = path to the key (defualt = ~/.ssh/haproxy-key.pem)
   3. -r = False to launch new instances and configure them, True for configuring only the instances (i.e., start the services, as the instances have already been launched).
+
+  ```bash
+  python init_ec2.py -n 20 -key ~/.ssh/haproxy-key.pem -r True
+  ```
   
 Apart from the Apache servers, specified by the -n parameter, the following instances are started and configured:
   1. HAProxy: 1 server
