@@ -70,12 +70,21 @@ Apart from the above scripts, the following code is included into this repositor
 
 
 [1] http://math.ut.ee/~mazzucco/papers/greenmetrics.pdf
+
 [2] https://github.com/boto/boto
+
 [3] http://www.numpy.org/
+
 [4] http://code.google.com/p/psutil/
+
 [5] http://haproxy.1wt.eu/download/1.4/doc/configuration.txt
+
 [6] http://feurix.org/projects/hatop/
+
 [7] http://dumps.wikimedia.org/
+
 [8] http://www.cloudiquity.com/2009/02/using-amazon-ec2-public-ip-address-inside-ec2-network/
+
 [9] https://github.com/massiccio/java/tree/master/src/http
+
 [10] https://github.com/Lispython/human_curl
