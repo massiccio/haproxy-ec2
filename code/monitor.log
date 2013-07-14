@@ -1,0 +1,37 @@
+[2012-04-21 15:04:01,819] - [    INFO] -- Reconfiguration interval 3600 seconds
+[2012-04-21 15:04:01,819] - [    INFO] -- Using oracle, load trace is ../traces/r_prediction_day_10.txt
+[2012-04-21 15:04:01,819] - [    INFO] -- Power up delay 60 sec.
+[2012-04-21 15:04:01,819] - [    INFO] -- Treshold enabled: True
+[2012-04-21 15:04:02,648] - [    INFO] -- Adding i-14074073, IP 50.17.177.175 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-12074075, IP 23.20.193.165 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-10074077, IP 23.20.47.252 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-1e074079, IP 107.20.118.192 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-1c07407b, IP 23.20.155.130 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-1a07407d, IP 50.17.66.199 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-1807407f, IP 50.19.78.121 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-e6074081, IP 23.20.221.249 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-e4074083, IP 67.202.41.164 to always on
+[2012-04-21 15:04:02,652] - [    INFO] -- Adding i-e2074085, IP 107.21.193.24 to always on
+[2012-04-21 15:04:02,653] - [    INFO] -- Adding i-e0074087, IP 50.19.19.56 to always on
+[2012-04-21 15:04:02,653] - [    INFO] -- Adding i-ee074089, IP 75.101.217.156 to always on
+[2012-04-21 15:04:02,653] - [    INFO] -- Adding i-ec07408b, IP 50.17.122.83 to always on
+[2012-04-21 15:04:02,653] - [    INFO] -- Adding i-ea07408d, IP 50.17.142.219 to always on
+[2012-04-21 15:04:02,653] - [    INFO] -- Adding i-e807408f, IP 23.20.36.54 to always on
+[2012-04-21 15:04:02,653] - [    INFO] -- Adding i-f6074091, IP 204.236.254.54 to always on
+[2012-04-21 15:04:02,653] - [    INFO] -- Adding i-f4074093, IP 23.20.9.2 to always on
+[2012-04-21 15:04:02,655] - [    INFO] -- Config file is /Users/michele/devel/haproxy-1.4.20/haproxy.cfg
+[2012-04-21 15:04:02,655] - [    INFO] -- Reloading configuration
+[2012-04-21 15:04:02,661] - [    INFO] -- HAPRoxy configuration reloaded
+[2012-04-21 15:04:02,661] - [    INFO] -- Loading the lambdas
+[2012-04-21 15:04:02,661] - [    INFO] -- PID # 815
+[2012-04-21 15:04:02,662] - [    INFO] -- Socket connected
+[2012-04-21 15:04:03,663] - [    INFO] -- Oracle, setting first allocation
+[2012-04-21 15:04:03,663] - [    INFO] -- Estimated arr. rate: 0.000
+[2012-04-21 15:04:03,663] - [    INFO] -- [Oracle] Setting lambda to 27.435
+[2012-04-21 15:04:03,664] - [    INFO] -- Arr rate 27.435
+[2012-04-21 15:04:03,670] - [    INFO] -- Current configuration, m=0, D=0, U=0, new solution: Cost m=13, D=7, U=34, cost 17.6061087127
+[2012-04-21 15:04:03,670] - [ WARNING] -- Recovery
+[2012-04-21 15:04:03,671] - [    INFO] -- Entering while loop
+[2012-04-21 15:05:01,067] - [    INFO] -- Received exit signal
+[2012-04-21 15:05:01,073] - [    INFO] -- Total cost 470.858, avg. 8.000000
+[2012-04-21 15:05:01,073] - [    INFO] -- Exiting...
