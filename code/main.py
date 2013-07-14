@@ -780,8 +780,6 @@ if __name__ == '__main__':
     costs = Costs(args.c1, args.c2)
     reserves = Reserves(args.m, args.D, args.U)
     monitor = Monitor(reserves, costs, args.mu, args.co, args.p, args.mon, 
-                      args.r, args.o, tresholds_enabled) 
-    #reserves = commons.Reserves(1, 10, 18)
-    #monitor = ReservesTag(reserves, 10.0, 2.0)
+                      args.r, args.o, tresholds_enabled)
     monitor.monitor_haproxy()
        
