@@ -1,7 +1,7 @@
 haproxy-ec2
 ===========
 
-The provided code does provides the following functionalities:
+The code provides the following functionalities:
 - Monitors the status of a haproxy instance sitting in front of a cluster of servers running on Amazon EC2 and starts/stops them according to the observed load.
 - Starts and sets up a cluster of Apache servers, with one back end server running MySQL and Memcached (all services are auto-configured).
 - Sets up a client code which can be used to load test the above cluster.
